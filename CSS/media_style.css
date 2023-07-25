@@ -1,0 +1,411 @@
+@media (max-width:1024px) {
+    .header_section {
+        display: flex;
+    }
+
+    .site_header {
+        display: none;
+    }
+
+    .dropdown_list a {
+        color: black !important;
+    }
+
+    .banner_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 15px;
+    }
+
+    .banner_text {
+        max-width: none;
+    }
+
+    .site_page {
+        padding: 50px 0px;
+        display: block;
+    }
+
+    .package_card {
+        margin-top: 50px;
+    }
+
+    .banner_image {
+        display: none;
+    }
+
+    .hero_image {
+        display: none;
+    }
+
+    .content_section {
+        margin-top: 50px;
+    }
+
+    .cart_content {
+        margin: 50px 0;
+        display: flex;
+    }
+
+    .cart_content:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+
+    .cart_content_section {
+        max-width: 400px;
+    }
+
+    .test_card {
+        margin-bottom: 40px;
+    }
+
+    .test_card:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+
+    .test_text {
+        max-width: 300px;
+    }
+
+    .team_card {
+        flex-basis: 45%;
+    }
+
+    .content_section {
+        display: block;
+    }
+
+    .team_content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+    }
+
+    .footer-list {
+        padding-left: 15px;
+        padding-right: 15px;
+        grid-template-columns: 50% auto;
+    }
+}
+
+@media (max-width:768px) {
+    #icon_primary {
+        font-size: 14px;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .list-items {
+        flex-basis: 45%;
+    }
+
+    .cart_content_section {
+        max-width: none;
+    }
+
+    .team_card {
+        flex-basis: 45%;
+    }
+
+    .footer_upper {
+        padding: 60px 0;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+
+    .cart_content {
+        flex-wrap: wrap;
+    }
+
+    .cart_content_section {
+        padding: 20px 0 0 0px;
+    }
+
+    .cart_img {
+        width: 100%;
+    }
+
+    .cart_img img {
+        height: 300px;
+    }
+}
+
+@media (max-width:420px) {
+
+    .dropdown-toggle-label {
+        left: 10px;
+        top: 10px;
+    }
+
+    .dropdown-menu h2 {
+        padding: 10px 0;
+    }
+
+    .label_link {
+        font-size: 12px;
+    }
+
+    .banner_container {
+        padding: 80px 10px 40px;
+    }
+
+    .banner_head {
+        font-size: 28px;
+    }
+
+    .banner_text {
+        font-size: 14px;
+    }
+
+    .empty_btn {
+        padding: 4px 10px;
+    }
+
+    .banner_btns button {
+        min-width: 100px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    .site_page {
+        padding: 30px 10px;
+    }
+
+    .site_page_card button {
+        border-radius: 4px;
+        padding: 10px 8px;
+    }
+
+    .page_heading {
+        margin: 20px 0 10px 0;
+    }
+
+    .page_heading_large {
+        font-size: 24px;
+    }
+
+    .package_content button {
+        margin-top: 5px;
+    }
+
+    .package_card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .site_page_card {
+        padding: 10px 20px;
+        width: 90%;
+    }
+
+    .site_page_card_heading {
+        margin: 10px 0;
+    }
+
+    .site_page_card_head {
+        font-size: 14px;
+    }
+
+    .page_text {
+        font-size: 12px;
+    }
+
+    .line_large {
+        width: 60px;
+        height: 3px;
+    }
+
+    .cart_img {
+        width: 100%;
+    }
+
+    .sale {
+        left: 10px;
+        top: 10px;
+        padding: 4px 10px;
+        font-size: 10px;
+    }
+
+    .cart_icons {
+        bottom: 15px;
+    }
+
+    .cart_icons button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .cart_content_section {
+        padding: 10px;
+    }
+
+    .cart_button {
+        padding: 5px 10px;
+    }
+
+    .cart_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart_content:hover {
+        box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .cart_img img {
+        max-height: 250px;
+    }
+
+    .rating {
+        font-size: 10px;
+        padding: 2px 3px;
+    }
+
+    .cart_sale_text {
+        font-size: 12px;
+    }
+
+    .card_head {
+        margin: 10px 0;
+    }
+
+    .test_card img {
+        height: 64px;
+        width: 64px;
+    }
+
+    .test_text {
+        font-size: 12px;
+        margin: 10px 0 5px;
+    }
+
+    #rating {
+        font-size: 18px;
+    }
+
+    .test_des {
+        font-size: 12px;
+    }
+
+    .team_content {
+        margin: 40px auto 0;
+    }
+
+    .team_card {
+        flex-basis: 45%;
+        border-radius: 10px;
+    }
+
+    .team_img_card {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .team_card_icons a i {
+        font-size: 16px
+    }
+
+    .form {
+        margin-top: 30px;
+    }
+
+    .form-field {
+        padding: 5px 10px;
+    }
+
+    .footer_upper {
+        padding: 50px 0;
+    }
+
+    .footer-list {
+        padding: 30px 10px;
+    }
+
+    .last_content {
+        flex-direction: column-reverse;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .last_section {
+        padding: 10px;
+    }
+}
+
+@media (max-width:320px) {
+
+    .content_section {
+        margin-top: 25px;
+    }
+
+    .test_card {
+        margin-bottom: 20px;
+    }
+
+    .team_head {
+        font-size: 18px;
+    }
+
+    .team_text {
+        font-size: 12px;
+    }
+
+    .team_card {
+        padding-bottom: 10px;
+    }
+
+    .team_card h4 {
+        font-size: 13px;
+    }
+
+    .footer-head {
+        font-size: 18px;
+    }
+
+    .form-field::placeholder {
+        font-size: 12px;
+    }
+
+    .form button {
+        font-size: 12px;
+    }
+
+    .footer-button {
+        padding: 5px 10px;
+    }
+
+    .list-items {
+        flex-basis: 100%;
+    }
+
+    .list-items h4 {
+        font-size: 14px;
+    }
+
+    .list-items li {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .list-items li i {
+        font-size: 18px;
+    }
+
+    .icons a i {
+        font-size: 18px;
+    }
+
+    .last {
+        font-size: 10px;
+    }
+}
